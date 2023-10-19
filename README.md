@@ -1,3 +1,3 @@
 # SharPo API
 
-#The newest version
+The newest version
