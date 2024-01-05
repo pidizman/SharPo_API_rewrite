@@ -19,7 +19,7 @@
     "zod": "^3.22.2"
   },
   "devDependencies": {
-    "@types/better-sqlite3": "^7.6.5",
+    "@types/better-sqlite3": "^7.6.5"
     "@types/secure-random": "^1.1.0",
     "bun-types": "latest",
     "drizzle-kit": "^0.19.13"

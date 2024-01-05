@@ -8,7 +8,7 @@ const app = new Elysia();
 app.get("/", async () => {
   //console.log(await db.select().from(users).all());
   //await db.delete(users);
-  const data = await db.select().from(users).all();
+  const data = await db.select().from(users);
 
   return data;
 });
@@ -19,6 +19,4 @@ Routes.map((v) => {
 
 app.listen(9090);
 
-console.log(
-  `Running at ${app.server?.hostname}:${app.server?.port}`
-);
+console.log(`Running at ${app.server?.hostname}:${app.server?.port}`);
